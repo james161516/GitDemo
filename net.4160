@@ -1,0 +1,27 @@
+
+LSNRCTL for 64-bit Windows: Version 11.2.0.1.0 - Production on 06-SEP-2021 14:10:09
+
+Copyright (c) 1991, 2010, Oracle.  All rights reserved.
+
+Welcome to LSNRCTL, type "help" for information.
+
+LSNRCTL> Connecting to (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)(PORT=1521)))
+Services Summary...
+Service "CLRExtProc" has 1 instance(s).
+  Instance "CLRExtProc", status UNKNOWN, has 1 handler(s) for this service...
+    Handler(s):
+      "DEDICATED" established:0 refused:0
+         LOCAL SERVER
+Service "orcl" has 1 instance(s).
+  Instance "orcl", status READY, has 1 handler(s) for this service...
+    Handler(s):
+      "DEDICATED" established:680 refused:0 state:ready
+         LOCAL SERVER
+Service "orclXDB" has 1 instance(s).
+  Instance "orcl", status READY, has 1 handler(s) for this service...
+    Handler(s):
+      "D000" established:0 refused:0 current:0 max:1022 state:ready
+         DISPATCHER <machine: MANOJ, pid: 8804>
+         (ADDRESS=(PROTOCOL=tcp)(HOST=MANOJ)(PORT=49673))
+The command completed successfully
+LSNRCTL> 
